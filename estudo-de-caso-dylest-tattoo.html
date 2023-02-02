@@ -1,0 +1,449 @@
+<!DOCTYPE html><!--  Last Published: Wed Nov 23 2022 22:43:31 GMT+0000 (Coordinated Universal Time)  -->
+<html data-wf-page="6377f5a8356877f05840b9b6" data-wf-site="61e01a226bc9373c8d58eb64">
+<head>
+  <meta charset="utf-8">
+  <title>Estudo de Caso - Dylest Tattoo</title>
+  <meta content="Estudo de caso que aborda desde a contextualização do problema, as pesquisas iniciais exploratórias, comparação entre competidores, arquitetura de informação e o teste de usabilidade." name="description">
+  <meta content="Estudo de Caso - Dylest Tattoo" property="og:title">
+  <meta content="Estudo de caso que aborda desde a contextualização do problema, as pesquisas iniciais exploratórias, comparação entre competidores, arquitetura de informação e o teste de usabilidade." property="og:description">
+  <meta content="https://i.ibb.co/4Vx2S6j/9-Web-Mobile-Prototype-0-75x.png" property="og:image">
+  <meta content="Estudo de Caso - Dylest Tattoo" property="twitter:title">
+  <meta content="Estudo de caso que aborda desde a contextualização do problema, as pesquisas iniciais exploratórias, comparação entre competidores, arquitetura de informação e o teste de usabilidade." property="twitter:description">
+  <meta content="https://i.ibb.co/4Vx2S6j/9-Web-Mobile-Prototype-0-75x.png" property="twitter:image">
+  <meta property="og:type" content="website">
+  <meta content="summary_large_image" name="twitter:card">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <meta content="xVMDyJtrlNdSGCVECIYD9Zm5DP7_woQ4_kzRKU2eo3Q" name="google-site-verification">
+  <link href="css/normalize.css" rel="stylesheet" type="text/css">
+  <link href="css/webflow.css" rel="stylesheet" type="text/css">
+  <link href="css/belisiario.webflow.css" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
+  <script type="text/javascript">WebFont.load({  google: {    families: ["Open Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic","PT Sans:400,400italic,700,700italic","PT Serif:400,400italic,700,700italic","Playfair Display:regular,700","Spectral:regular,500,600,700"]  }});</script>
+  <!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
+  <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
+  <link href="images/favicon.png" rel="shortcut icon" type="image/x-icon">
+  <link href="images/webclip.png" rel="apple-touch-icon">
+  <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-9K27C6ZESV"></script>
+  <script type="text/javascript">window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-9K27C6ZESV', {'anonymize_ip': false});</script><!--  Finsweet Cookie Consent  -->
+  <script async="" src="https://cdn.jsdelivr.net/npm/@finsweet/cookie-consent@1/fs-cc.js" fs-cc-mode="opt-in"></script>
+  <!--  Google tag (gtag.js)  -->
+  <script type="fs-cc" async="" src="https://www.googletagmanager.com/gtag/js?id=G-9K27C6ZESV"></script>
+  <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-9K27C6ZESV');
+</script>
+</head>
+<body class="body">
+  <div data-animation="default" data-collapse="medium" data-duration="400" data-easing="ease-out" data-easing2="ease-out" role="banner" class="nav-bar w-nav">
+    <div class="container-navbar w-container">
+      <a href="index.html" class="link-logo-navbar w-nav-brand"><img src="images/Logo-central__2.webp" loading="lazy" width="159" alt="Belisiario logo" class="image-logo-navbar"></a>
+      <nav role="navigation" class="navbar-menu w-nav-menu">
+        <a href="index.html" class="link-navbar w-nav-link">Home</a>
+        <div data-hover="false" data-delay="0" class="dropdown-navbar w-dropdown">
+          <div class="dropdown-toggle-default w-dropdown-toggle">
+            <div class="icon-navbar w-icon-dropdown-toggle"></div>
+            <div class="text-block-dropdown">Portfolio</div>
+          </div>
+          <nav class="dropdown-list w-dropdown-list">
+            <a href="ux-ui.html" class="dropdown-link w-dropdown-link">UX / UI</a>
+            <a href="editorial-design.html" class="dropdown-link w-dropdown-link">Editorial Design</a>
+            <a href="branding.html" class="dropdown-link w-dropdown-link">Branding</a>
+            <a href="landing-page.html" class="dropdown-link w-dropdown-link">Landing Page</a>
+          </nav>
+        </div>
+        <a href="case-study-page.html" class="link-navbar w-nav-link">Case Study</a>
+        <a href="about.html" class="link-navbar w-nav-link">About</a>
+        <a href="contact.html" class="link-navbar w-nav-link">Contact</a>
+      </nav>
+      <div class="menu-button w-nav-button">
+        <div class="icon-menu w-icon-nav-menu"></div>
+      </div>
+    </div>
+  </div>
+  <section id="Project-Title" class="section-5 blog-background wf-section">
+    <div class="div-breadcrumb">
+      <a href="index.html" class="link-breadcrumb">Home Page</a><img src="https://uploads-ssl.webflow.com/632c64ea34428fc78321d9b0/632c64ea34428f888621da12_Chevron.svg" loading="lazy" alt="" class="chevron">
+      <a href="case-study-page.html" class="link-breadcrumb">Case Study</a><img src="https://uploads-ssl.webflow.com/632c64ea34428fc78321d9b0/632c64ea34428f888621da12_Chevron.svg" loading="lazy" alt="" class="chevron">
+      <a href="estudo-de-caso-dylest-tattoo.html" aria-current="page" class="link-breadcrumb w--current">Site de um Estúdio de Tatuagem</a>
+    </div>
+    <div class="container-13 padding-bottom-0 w-container">
+      <div class="div-blog-post">
+        <div class="div-blog-post-image"><img src="images/Web--Mobile-Prototype0.75x.webp" loading="lazy" srcset="images/Web--Mobile-Prototype0.75x-p-500.png 500w, images/Web--Mobile-Prototype0.75x-p-800.png 800w, images/Web--Mobile-Prototype0.75x-p-1080.png 1080w, images/Web--Mobile-Prototype0.75x.webp 1384w" alt="" sizes="(max-width: 479px) 93vw, (max-width: 767px) 94vw, 618.0113525390625px" class="image-item"></div>
+        <div class="div-article-title">
+          <h1 class="title-study-case">Site de um Estúdio de Tatuagem<br></h1>
+          <p class="paragraph-small">Estudo de caso que aborda desde a contextualização do problema, as pesquisas iniciais exploratórias, comparação entre competidores, arquitetura de informação e o teste de usabilidade.</p>
+          <div class="div-title-category">
+            <p class="paragraph-extra-small">Categoria: Estudo de Caso</p>
+          </div>
+        </div>
+      </div>
+      <div class="div-blog-wrapper background-dark">
+        <div class="texture-blog-top"></div>
+        <div class="div-article">
+          <div class="div-article-item">
+            <div class="div-item-title-case">
+              <h2>Contexto<br></h2>
+            </div>
+            <p class="paragraph-small">Apesar de sempre ter sido o sonho de Thomas*, possuir seu próprio estúdio de tatuagem sempre pareceu fora de sua realidade. No entanto, tudo parecia mudar quando, por amizades em comum, Thomas conheceu Emma e Michael, ambos tatuadores e apaixonados pelo seu trabalho. <br><br>Após um considerável tempo de conversas, dúvidas, pesquisas, os três resolveram unir seus esforços e abrir um estúdio de forma conjunta. No entanto, problemas financeiros os levaram a questionar se a empreitada tinha sido a melhor decisão. Os amigos, à despeito das dificuldades, entraram em acordo para continuarem com o negócio e tentar torná-lo rentável após um período estabelecido. <br><br>O fim parecia próximo quando a situação financeira não se restabelecia e um dos amigos teve de lidar com uma tragédia familiar. Contudo, o apoio mútuo originou um último esforço para a sobrevivência do estúdio, a busca por uma orientação profissional. <br><br>Com o auxílio de uma agência, os três amigos conseguiram prospectar mais clientes utilizando as mídias sociais e um incipiente site. O crescimento da rentabilidade do negócio foi o suficiente para decidirem prosseguir com o estúdio. Um desentendimento ocasionado pela parte gerencial, no entanto, quase colocou fim na sociedade. Mas finalmente, levando em consideração tudo que passaram, o apoio de cada um em momentos de dificuldade e a realização de poderem ter seu próprio negócio e fazer o que ama fez com que mais um obstáculo fosse superado. <br><br>Assim, após um período de crescimento e constante aprimoramento da marca utilizando o meio digital, os amigos resolveram reformular sua identidade visual e aprimorar o site do estúdio.</p>
+            <p class="paragraph-extra-small">* Devido à privacidade, dados pessoais e informações privadas no projeto foram alteradas ou omitidas.</p>
+          </div>
+          <div class="div-article-item">
+            <div class="div-item-title-case">
+              <h2>O Problema<br></h2>
+            </div>
+            <p class="paragraph-small">Criação de um site para um estúdio de tatuagem com o intuito de prospectar mais clientes, expor de maneira clara o trabalho realizado por eles, e sanar as dúvidas que possíveis usuários poderiam ter.</p>
+            <h3>Pontos</h3>
+            <ul role="list" class="list">
+              <li>Construção de um protótipo de média para alta fidelidade da página inicial do aplicativo da Horti para Android.<br></li>
+              <li>Documentação do processo e do resultado.<br></li>
+              <li>Utilização das principais ferramentas de design (Figma, Illustrator, Photoshop, InDesign)</li>
+              <li>Apresentação do projeto: insights, problemas e dicas.</li>
+            </ul>
+          </div>
+          <div class="div-article-item">
+            <div class="div-item-title-case">
+              <h2 class="margin-bottom-30">Desk Research<br></h2>
+              <h3>Pesquisa Exploratória</h3>
+            </div>
+            <p class="paragraph-small">Fonte de pesquisa: livros, artigos, reportagens e comentários de profissionais.</p>
+            <p class="paragraph-small">Informação #1: as tatuagens podem representar muito mais do que algo simbólico e pessoal para o indivíduo, mas sim uma <strong>cultura e modo de vida</strong>.<br><br><span class="left-margin">Insight: o estúdio pode ser visto como um centro de integração para os clientes e entusiastas. Seja por meio de criação de grupos ou comunidades nas principais redes sociais, realização de eventos e encontros físicos, ou outros aspectos interativos, o estúdio poderá propiciar essa sensação de pertencimento e confraternização.</span></p>
+            <p class="paragraph-small">Informação #2: os <strong>cuidados pré e pós-tatuagem são importantes</strong> e devem ser disponibilizados para todas as pessoas e de fácil compreensão. Além disso, é necessário haver o devido embasamento por profissionais da área e demais especialistas, como dermatologistas.<br><br><span class="left-margin">Insight #1: <strong>a elaboração de e-books ou guias</strong> sobre cuidados podem ser desenvolvidos levando em consideração o contexto do cliente. Ou seja, um e-book desenvolvido para quem ainda não possui tatuagem e está pesquisando sobre, por exemplo, pode ser disponibilizado com o intuito de sanar as principais dúvidas e gerar um lead qualificado para o estúdio. Após a primeira tatuagem, o cliente pode ganhar uma versão mais abrangente do e-book com cuidados atuais e futuros. <br><br>Insight #2: o cuidado com a pele não se deve restringir apenas no que tange as tatuagens. Por isso, <strong>uma parceria com clínicas de saúde ou profissionais da área</strong>, como dermatologistas, pode ser uma colaboração frutífera tanto no aspecto social quanto econômico para todos os envolvidos.</span></p>
+            <p class="paragraph-small">Informação #3: o <strong>preconceito com pessoas tatuadas</strong> deve ser combatido em todos os âmbitos da sociedade. Um artigo de <a href="https://ejmcm.com/article_5453.html" target="_blank" class="link-external">Khan e Pandey (2020)</a>, mostrou que candidatos com tatuagens e piercings se sentiram discriminados em processos seletivos.<br><br><span class="left-margin">Insights: o estúdio poderá utilizar de sua autoridade e conhecimento da cultura de tatuagem para servir como um <strong>espaço aberto de diálogo e denúncia de preconceitos sofridos pelas pessoas</strong>. Além disso, recomenda-se <strong>parcerias com veículos de notícias e pesquisadores sociais</strong> para estudar e expor de maneira categórica quaisquer vieses preconceituosos que possam existir.</span></p>
+            <h3>Matriz CSD</h3>
+            <p class="paragraph-small">A Matriz CSD pode ser mantida durante todo o projeto com o intuito de estruturar certezas, suposições e dúvidas – por isso o nome CSD. Utiliza-se com mais frequência no início de um projeto com o intuito de obter informações acerca do contexto do desafio de maneira dinâmica (<a href="http://liveworktools.webflow.io/entender/matrizcsd" target="_blank" class="link-external">LIVEWORK, 2018</a>).</p>
+            <ul role="list" class="list">
+              <li>Certezas<br></li>
+              <li class="list-ident">O site será um dos principais meios de prospecção de clientes.</li>
+              <li class="list-ident">As informações de contato e localização devem estar acessíveis.</li>
+              <li class="list-ident">O tipo de trabalho oferecido e as principais dúvidas devem possuir um fácil acesso.</li>
+              <li class="margin-top-20">Suposições<br></li>
+              <li class="list-ident">Informações acerca do time deverão estar acessíveis já na página principal.</li>
+              <li class="list-ident">A maior fonte de acessos provém da versão mobile do site.</li>
+              <li class="list-ident">Mecanismos de buscas serão o principal meio de encontro do site pelos clientes.</li>
+              <li class="margin-top-20">Dúvidas</li>
+              <li class="list-ident">Os clientes mais interessados por tatuagem possuem um perfil demográfico específico?</li>
+              <li class="list-ident">O perfil psicográfico é bem demarcado?</li>
+              <li class="list-ident">Como é realizada a estratégia de “pós-venda” para os clientes?</li>
+            </ul>
+            <div class="div-item-image-case">
+              <a href="#" class="lightbox-case w-inline-block w-lightbox"><img src="images/Matriz-CSD-Pré-entrevista.webp" loading="lazy" srcset="images/Matriz-CSD-Pré-entrevista-p-500.png 500w, images/Matriz-CSD-Pré-entrevista.webp 1023w" alt="Matriz CSD subdividida em três partes: certezas, suposições e dúvidas não preenchida." sizes="(max-width: 767px) 94vw, 575px">
+                <p class="paragraph-extra-small align-center">Matriz CSD antes da entrevista de profundidade</p>
+                <script type="application/json" class="w-json">{
+  "items": [
+    {
+      "_id": "example_img",
+      "origFileName": "Matriz CSD Pré-entrevista.png",
+      "fileName": "Matriz CSD Pré-entrevista.png",
+      "fileSize": 239942,
+      "height": 922,
+      "url": "images/Matriz-CSD-Pré-entrevista.webp",
+      "width": 1023,
+      "type": "image"
+    }
+  ],
+  "group": "Dylest"
+}</script>
+              </a>
+            </div>
+            <h3>Entrevista de Profundidade</h3>
+            <p class="paragraph-small">Técnica de coleta de informações sobre um determinado assunto com o intuito de aprender o que as pessoas pensam, sabem, representam, fazem e argumentam (<a href="https://www.cortezeditora.com.br/produto/metodologia-do-trabalho-cientifico-2103" target="_blank" class="link-external">SEVERINO, 2017</a>).<br><br>Além de buscar entender a parte gerencial do estúdio, a Matriz CSD serviu como base para a elaboração de perguntas que buscassem confirmar ou rejeitar as suposições levantadas e sanar as principais dúvidas. A entrevista foi realizada com um dos proprietários do estúdio.<br><br>Uma dúvida levantada sobre a questão demográfica mostrou que apesar do público masculino ser mais prevalente, a diferença não foi considerada significativa e, por recomendação, foi deixada a recomendação de um mapeamento mais específico dos clientes e, se possível um software de CRM (<em>Customer Relationship Management</em> ou Gestão de Relacionamento com o Cliente) para uma confirmação futura.<br><br>Outro ponto de destaque se deu pelo fato do estúdio não possuir uma estratégia de pós-venda elaborada. Assim, a fidelidade dos clientes pode estar sendo prejudicada.</p>
+            <div class="div-item-image-case">
+              <a href="#" class="lightbox-case w-inline-block w-lightbox"><img src="images/Matriz-CSD-Pós-entrevista.webp" loading="lazy" srcset="images/Matriz-CSD-Pós-entrevista-p-500.png 500w, images/Matriz-CSD-Pós-entrevista-p-800.png 800w, images/Matriz-CSD-Pós-entrevista.webp 1023w" alt="Matriz CSD subdividida em três partes com alguns pontos de observação." sizes="(max-width: 767px) 94vw, 575px">
+                <script type="application/json" class="w-json">{
+  "items": [
+    {
+      "_id": "example_img",
+      "origFileName": "Matriz CSD Pós-entrevista.png",
+      "fileName": "Matriz CSD Pós-entrevista.png",
+      "fileSize": 252414,
+      "height": 922,
+      "url": "images/Matriz-CSD-Pós-entrevista.webp",
+      "width": 1023,
+      "type": "image"
+    }
+  ],
+  "group": "Dylest"
+}</script>
+              </a>
+              <p class="paragraph-extra-small align-center">Matriz CSD após a entrevista de profundidade</p>
+            </div>
+            <h3>Persona</h3>
+            <p class="paragraph-small">Um retrato do público-alvo que destaca dados demográficos, comportamentos, necessidades e motivações através da criação de um personagem ficcional, baseado em dados extraídos de pesquisa (<a href="https://www.casadocodigo.com.br/products/livro-ux-user-experience" target="_blank" class="link-external">TEIXEIRA, 2014</a>). <em>Personas </em>fazem com que os designers e desenvolvedores criem empatia com os consumidores durante o processo de design.<br><br>Ou seja, após entender o perfil de clientes do estúdio por meio das etapas anteriores de pesquisa, principalmente por meio da entrevista de profundidade, foi possível elaborar um personagem que pudesse representar os aspectos demográficos e psicográficos do público-alvo. Assim, será possível utilizá-la como base nas fases posteriores do projeto e, assim, construir um site de maneira mais empática. Ademais, a <em>persona </em>será útil em futuros esforços de marketing.</p>
+            <div class="div-item-image-case">
+              <a href="#" class="lightbox-case w-inline-block w-lightbox"><img src="images/Persona.webp" loading="lazy" srcset="images/Persona-p-500.png 500w, images/Persona-p-800.png 800w, images/Persona.webp 941w" alt="Persona do perfil de cliente do estúdio de tatuagem." sizes="(max-width: 767px) 94vw, 575px">
+                <script type="application/json" class="w-json">{
+  "items": [
+    {
+      "_id": "example_img",
+      "origFileName": "Persona.png",
+      "fileName": "Persona.png",
+      "fileSize": 487816,
+      "height": 751,
+      "url": "images/Persona.webp",
+      "width": 941,
+      "type": "image"
+    }
+  ],
+  "group": "Dylest"
+}</script>
+              </a>
+              <p class="paragraph-extra-small align-center"><em>Persona</em> elaborada após a análise dos dados demográficos e psicográficos.</p>
+            </div>
+          </div>
+          <div class="div-article-item">
+            <div class="div-item-title-case">
+              <h2>Benchmarking<br></h2>
+            </div>
+            <p class="paragraph-small">Benchmarking se trata do processo de comparar as principais métricas de negócios de uma empresa com as de seus concorrentes. Isso ajuda as organizações a identificar áreas onde podem melhorar seu próprio desempenho, reduzindo custos, otimizando o funil de vendas e melhorando o produto. Logo, as empresas podem entregar mais valor aos usuários (<a href="https://www.oreilly.com/library/view/ux-strategy/9781449372972/" class="link-external">LEVY, 2015</a>).<br><br>Como método de pesquisa foi escolhida a indexação por mecanismos de buscas com critério de relevância de resultados. Anúncios não foram considerados. Houve a segmentação geográfica elas foram baseadas em quatro variações: 3 estúdios de tatuagem local (mesmo estado), 3 estúdios de tatuagem nacional, 3 estúdios de tatuagem do exterior local, e 3 estúdios de tatuagem do exterior nacional. Exemplos de palavras-chave utilizadas:</p>
+            <ul role="list" class="list">
+              <li>Estúdio de tatuagem São Paulo<br></li>
+              <li>Estúdio de tatuagem Brasil<br></li>
+              <li>Tattoo studio California</li>
+              <li>Tattoo studio USA</li>
+            </ul>
+            <p class="paragraph-small">Para obter um resultado orgânico do mecanismo de busca, foi utilizado um servidor VPN localizado no Brasil e nos EUA de maneira conjunta a uma janela anônima no navegador.</p>
+            <p class="paragraph-small">Com isso, foi possível resultados com uma maior variação visual e tecnológica dos sites, o que pode propiciar diferentes insights em comparação a uma pesquisa sem segmentação.<br><br>Utilizando como base o método proposto por <a href="https://www.nngroup.com/articles/product-ux-benchmarks/" class="link-external">Joyce (2020)</a>, foram elaboradas métricas que pudessem embasar as principais escolhas de negócio por parte de sites com propostas similares. O método é composto por 4 etapas:</p>
+            <ul role="list" class="list">
+              <li>Escolha do que mensurar<br></li>
+              <li>Escolha de como mensurar<br></li>
+              <li>Mensuração da primeira coleta</li>
+              <li>Interpretação dos dados coletados</li>
+            </ul>
+            <p class="paragraph-small">Para a escolha do que deve ser mensurado, foram escolhidas métricas de acessibilidade utilizando como base a ferramenta online <a href="https://wave.webaim.org/" class="link-external">WebAIM</a> e de performance, melhores práticas, e SEO utilizando a ferramenta <a href="https://web.dev/measure/" target="_blank" class="link-external">Web.dev</a>. Em como medir, serão elaborados diferentes scores baseados nas métricas de análise escolhidas e apresentados no relatório final de cada website.</p>
+            <div class="div-item-image-case">
+              <a href="#" class="lightbox-case w-inline-block w-lightbox"><img src="images/Figure-Metric-Analysis.webp" loading="lazy" srcset="images/Figure-Metric-Analysis-p-500.png 500w, images/Figure-Metric-Analysis-p-800.png 800w, images/Figure-Metric-Analysis-p-1080.png 1080w, images/Figure-Metric-Analysis.webp 1354w" alt="Print das métricas de performance, melhores práticas e SEO de dois sites analisados." sizes="(max-width: 767px) 94vw, 575px">
+                <script type="application/json" class="w-json">{
+  "items": [
+    {
+      "_id": "example_img",
+      "origFileName": "Figure Metric Analysis.png",
+      "fileName": "Figure Metric Analysis.png",
+      "fileSize": 370586,
+      "height": 859,
+      "url": "images/Figure-Metric-Analysis.webp",
+      "width": 1354,
+      "type": "image"
+    }
+  ],
+  "group": "Dylest"
+}</script>
+              </a>
+              <p class="paragraph-extra-small align-center">Resultado das métricas de performance, melhores práticas e SEO do primeiro e segundo site analisado.</p>
+            </div>
+            <div class="div-item-image-case">
+              <a href="#" class="lightbox-case w-inline-block w-lightbox"><img src="images/Tecnologias-utilizadas.webp" loading="lazy" srcset="images/Tecnologias-utilizadas-p-500.png 500w, images/Tecnologias-utilizadas.webp 526w" alt="Print das tecnologias utilizadas em um website, como CMS, fontes, e biblioteca de javascript." sizes="(max-width: 767px) 94vw, 525.9943237304688px">
+                <script type="application/json" class="w-json">{
+  "items": [
+    {
+      "_id": "example_img",
+      "origFileName": "Tecnologias utilizadas.png",
+      "fileName": "Tecnologias utilizadas.png",
+      "fileSize": 29564,
+      "height": 428,
+      "url": "images/Tecnologias-utilizadas.webp",
+      "width": 526,
+      "type": "image"
+    }
+  ],
+  "group": "Dylest"
+}</script>
+              </a>
+              <p class="paragraph-extra-small align-center">Tecnologias utilizadas por um dos sites analisados.</p>
+            </div>
+            <div class="div-item-image-case">
+              <a href="#" class="lightbox-case w-inline-block w-lightbox"><img src="images/6.1.-Relatório-de-cada-site-analisado.png" loading="lazy" srcset="images/6.1.-Relatório-de-cada-site-analisado.png 500w, images/6.1.-Relatório-de-cada-site-analisado.png 800w, images/6.1.-Relatório-de-cada-site-analisado.png 908w" sizes="(max-width: 767px) 94vw, 575px" alt="">
+                <script type="application/json" class="w-json">{
+  "items": [
+    {
+      "_id": "example_img",
+      "origFileName": "6.1. Relatório de cada site analisado.png",
+      "fileName": "6.1. Relatório de cada site analisado.png",
+      "fileSize": 29771,
+      "height": 808,
+      "url": "images/6.1.-Relatório-de-cada-site-analisado.png",
+      "width": 908,
+      "type": "image"
+    }
+  ],
+  "group": "Dylest"
+}</script>
+              </a>
+              <p class="paragraph-extra-small align-center">Relatório de cada site analisado documentado no programa Notion.</p>
+            </div>
+            <p class="paragraph-small">Por meio da análise de cada site, foi possível comparar a arquitetura de informação, as plataformas ou frameworks utilizados no desenvolvimento do site, diferentes maneiras de apresentação visual do conteúdo, e benefícios ou informações oferecidas no site dos estúdios de tatuagem que podem ser adaptados no contexto do nosso projeto.</p>
+          </div>
+          <div class="div-article-item">
+            <div class="div-item-title-case">
+              <h2 class="margin-bottom-30">Arquitetura da Informação<br></h2>
+              <h3>Site Map/User Flow</h3>
+            </div>
+            <p class="paragraph-small">Apesar de similares, um <em>Site Map </em>e um <em>User Flow</em> são utilizados com propósitos diferentes e cada um com sua especificidade. A documentação por meio de um <em>Site Map</em>, organiza um sistema em grupos principais, categorias ou seções, e outras informações pertinentes (<a href="https://rosenfeldmedia.com/books/the-user-experience-team-of-one/" target="_blank" class="link-external">BULEY,2013</a>). Enquanto um <em>User Flow</em> retrata uma série de operações realizada pelo usuário com o intuito de atingir um objetivo (<a href="https://link.springer.com/chapter/10.1007/978-3-319-40548-3_26#Sec3" target="_blank" class="link-external">TAKAHASHI,2016</a>). Essas ações incluem o clique (ou toque, se tratando do universo mobile), inserção de texto em um campo específico, rolagem de um item etc. (<a href="https://link.springer.com/book/10.1007/978-3-319-95678-7" target="_blank" class="link-external">AUER; LANGMANN, 2019</a>).  <br><br>Por isso, foi escolhida uma abordagem mista dos métodos supramencionados nesta primeira fase de arquitetura da informação, visto não se tratar de um sistema complexo, com muitas variações de fluxos, mas que permite pequenas escolhas por parte do usuário ao longo da navegação, como a consulta ou não de valores na página inicial.</p>
+            <div class="div-item-image-case">
+              <a href="#" class="lightbox-case w-inline-block w-lightbox"><img src="images/Figure-Personalized-SIte-Map.webp" loading="lazy" srcset="images/Figure-Personalized-SIte-Map-p-500.jpg 500w, images/Figure-Personalized-SIte-Map-p-800.jpg 800w, images/Figure-Personalized-SIte-Map-p-1080.jpg 1080w, images/Figure-Personalized-SIte-Map.webp 1530w" alt="SIte Map do estúdio de tatuagem." sizes="(max-width: 767px) 94vw, 575px">
+                <script type="application/json" class="w-json">{
+  "items": [
+    {
+      "_id": "example_img",
+      "origFileName": "Figure Personalized SIte Map.jpg",
+      "fileName": "Figure Personalized SIte Map.jpg",
+      "fileSize": 94536,
+      "height": 956,
+      "url": "images/Figure-Personalized-SIte-Map.webp",
+      "width": 1530,
+      "type": "image"
+    }
+  ],
+  "group": "Dylest"
+}</script>
+              </a>
+              <p class="paragraph-extra-small align-center"><em>Site Map</em>.</p>
+            </div>
+            <h3>Wireframe</h3>
+            <p class="paragraph-small">Um <em>wireframe</em> se trata de um desenho básico da estrutura de um projeto. Ou seja, pode ser caracterizado como um “esqueleto” do sistema, pois expõe de maneira visual como suas partes interconectadas formam o projeto final (<a href="https://rosenfeldmedia.com/books/the-user-experience-team-of-one/" target="_blank" class="link-external">BULEY, 2013</a>). <br><br>Enquanto um <em>wireframe</em> em baixa fidelidade fornece agilidade e cria um modelo base para a estrutura de navegação do layout, um <em>wireframe</em> em alta fidelidade possui mais detalhes (<a href="https://repositorio-aberto.up.pt/handle/10216/128542?mode=full" target="_blank" class="link-external">SILVA, 2020</a>).<br><br>Assim, o <em>wireframe</em> em baixa fidelidade foi utilizado em um primeiro momento para validar a navegação estruturada por meio do <em>Site Map</em> e, após as devidas correções e aprovação do conceito, o <em>wireframe</em> em alta fidelidade foi desenvolvido.</p>
+            <div class="div-item-image-case">
+              <a href="#" class="lightbox-case w-inline-block w-lightbox"><img src="images/Figure-Wireframe-Low-and-High-Fidelity.webp" loading="lazy" srcset="images/Figure-Wireframe-Low-and-High-Fidelity-p-500.png 500w, images/Figure-Wireframe-Low-and-High-Fidelity-p-800.png 800w, images/Figure-Wireframe-Low-and-High-Fidelity-p-1080.png 1080w, images/Figure-Wireframe-Low-and-High-Fidelity.webp 1093w" alt="Wireframe de baixa fidelidade do lado esquerdo e do lado direito de alta fidelidade." sizes="(max-width: 767px) 94vw, 575px">
+                <script type="application/json" class="w-json">{
+  "items": [
+    {
+      "_id": "example_img",
+      "origFileName": "Figure Wireframe Low and High Fidelity.png",
+      "fileName": "Figure Wireframe Low and High Fidelity.png",
+      "fileSize": 380352,
+      "height": 734,
+      "url": "images/Figure-Wireframe-Low-and-High-Fidelity.webp",
+      "width": 1093,
+      "type": "image"
+    }
+  ],
+  "group": "Dylest"
+}</script>
+              </a>
+              <p class="paragraph-extra-small align-center"><em>Wireframe</em> em baixa e alta fidelidade.</p>
+            </div>
+            <h3>Prototipação</h3>
+            <p class="paragraph-small">Os protótipos são elaborados com o objetivo de testar o produto para que possíveis erros possam ser descobertos e corrigidos (<a href="https://ieeexplore.ieee.org/abstract/document/6716765" target="_blank" class="link-external">RAJESHKUMAR et al., 2013</a>). Ou seja, se trata de uma simulação de como as principais interações em um produto digital irão funcionar (<a href="https://www.casadocodigo.com.br/products/livro-ux-produtos-digitais" target="_blank" class="link-external">PEREIRA, 2018</a>).<br><br>O protótipo foi construído tanto para a versão web quanto para a versão mobile do site.</p>
+            <div class="div-item-image-case">
+              <a href="#" class="lightbox-case w-inline-block w-lightbox"><img src="images/Web--Mobile-Prototype0.75x.webp" loading="lazy" srcset="images/Web--Mobile-Prototype0.75x-p-500.png 500w, images/Web--Mobile-Prototype0.75x-p-800.png 800w, images/Web--Mobile-Prototype0.75x-p-1080.png 1080w, images/Web--Mobile-Prototype0.75x.webp 1384w" alt="Os mockups de um notebook e um smartphone com a página inicial do estúdio de tatuagem." sizes="(max-width: 767px) 94vw, 575px">
+                <script type="application/json" class="w-json">{
+  "items": [
+    {
+      "_id": "example_img",
+      "origFileName": "Web & Mobile Prototype@0.75x.png",
+      "fileName": "Web & Mobile Prototype@0.75x.png",
+      "fileSize": 675804,
+      "height": 737,
+      "url": "images/Web--Mobile-Prototype0.75x.webp",
+      "width": 1384,
+      "type": "image"
+    }
+  ],
+  "group": "Dylest"
+}</script>
+              </a>
+              <p class="paragraph-extra-small align-center">Protótipo elaborado tanto para a versão web quanto mobile.</p>
+            </div>
+          </div>
+          <div class="div-article-item">
+            <div class="div-item-title-case">
+              <h2 class="margin-bottom-30">Teste de Usabilidade<br></h2>
+              <h3>Definição</h3>
+            </div>
+            <p class="paragraph-small">Em 1998, a Organização Internacional para Padronização (ISO), uma entidade de padronização e normatização definiu “usabilidade” como:<br><br>A eficiência, eficácia e satisfação na qual usuários específicos atingem objetivos específicos em um contexto de uso específico (ISO 9241 apud <a href="https://www.barnesandnoble.com/w/ux-simplified-samir-dash/1119962457?ean=9781500499587&amp;allFormats=true" target="_blank" class="link-external">DASH, 2014</a>). Na nova versão da ISO 9241-11, são mantidos e elaborados os conceitos de 1998 da norma, com a definição original de usabilidade estendida para a aplicação em sistemas e serviços (<a href="https://link.springer.com/chapter/10.1007/978-3-319-39510-4_25" target="_blank" class="link-external">BEVAN et al., 2016</a>).<br></p>
+            <p class="paragraph-small">O modelo prescrito pela ISO segue três critérios como os componentes de usabilidade:<br></p>
+            <ul role="list" class="list">
+              <li>Eficácia: acurácia e precisão na qual usuários específicos atingem determinados objetivos em um contexto específico.<br></li>
+              <li>Eficiência: os recursos gastos em relação a precisão e precisão dos objetivos alcançados.<br></li>
+              <li>Satisfação: o conforto e aceitabilidade do sistema para os usuários e pessoas afetadas pelo seu uso.</li>
+            </ul>
+            <p class="paragraph-small">(<a href="https://www.barnesandnoble.com/w/ux-simplified-samir-dash/1119962457?ean=9781500499587&amp;allFormats=true" target="_blank" class="link-external">DASH, 2014).</a><br></p>
+            <h3>Recrutamento</h3>
+            <p class="paragraph-small">No teste de usabilidade, usuários são selecionados por corresponder a um tipo de perfil previamente definidos, realizam tarefas específicas em um sistema, website, ou qualquer outro tipo de produto (<a href="https://www.semanticscholar.org/paper/The-Science-of-Usability-Testing-Fox/fe72f7b58989a49d23fe32cd91cc25ae3982a016" target="_blank" class="link-external">FOX, 2016</a>). <br><br>Apesar da famigerada frase na área de pesquisa de que:<br></p>
+            <blockquote class="block-quote"><em>“Cinco participantes são suficientes para identificar 85% dos problemas de usabilidade.”</em></blockquote>
+            <p class="paragraph-small">Isso não é corroborado por alguns autores e pode ser considerado um mito. A maneira correta de raciocínio, conforme <a href="https://uxresearchbook.com/" target="_blank" class="link-external">Travis e Hodgson (2019)</a> seria:<br></p>
+            <blockquote class="block-quote"><em>“Cinco participantes são o suficiente para identificar 85% dos problemas de usabilidade que afetam um a cada três usuários.”  </em></blockquote>
+            <p class="paragraph-small">Por isso, para softwares ou websites, a probabilidade de encontrar um problema pode ser próximo de 10% a 5%. Para <a href="https://measuringu.com/five-users/" target="_blank" class="link-external">Sauro (2010)</a>, para atingir 85% de certeza que um problema que afete 10% dos usuários seja detectado pelo menos uma vez, pode ser necessário até 18 pessoas ou menos.<br><br>O número de 18 usuários foi escolhido com base na informação supramencionada e a para a escolha dos participantes levou-se em consideração o perfil demográfico e psicográfico elaborado na <em>Persona</em>. A disponibilização do formulário de triagem foi realizada em grupos e sites de tatuadores e entusiastas e desenvolvida por meio do <a href="https://www.google.com/forms/about/" target="_blank" class="link-external">Google Forms</a>. <br><br>Para o recrutamento, houve um esforço específico para que pelo menos 1 participante não tivesse um nível de destreza alto com tecnologia, pois além da importância de considerar o fato de que muitas pessoas ainda estão começando a utilizar celulares e computadores, é possível que o usuário gere insights no teste de usabilidade que poderiam não acontecer com quem já possui experiência com o universo digital, tanto web quanto mobile.<br></p>
+          </div>
+          <div class="div-article-item">
+            <div class="div-item-title-case">
+              <h3>User Tasks<br></h3>
+            </div>
+            <p class="paragraph-small">As <em>user tasks</em> (ou tarefas do usuário) são ações feitas pelo usuário com o propósito de atingir um objetivo específico. Diferentes usuários podem utilizar diferentes abordagens para cumprir uma determinada tarefa (<a href="https://www.casadocodigo.com.br/products/livro-ux-produtos-digitais" target="_blank" class="link-external">PEREIRA, 2018</a>). Por isso, de acordo com os principais objetivos e métricas do projeto, exemplos de tarefas elaboradas incluem:<br></p>
+            <p class="paragraph-small lista-de-perguntas">1- Procurar informações de valores a partir da <strong>p</strong>ágina <strong>i</strong>nicial (p.i.)<br><br>1.1- Procurar informação de valores a partir da página <strong>b</strong>log, para simular o usuário começando a jornada pelo site por mecanismos de buscas (b)<br><br>2- Verificar se o site possui fotos de tatuagens já feitas em outras pessoas (p.i.)<br><br>2.1- Verificar se o site possui fotos de tatuagens já feitas em outras pessoas (b)<br><br>3- Procurar o endereço do estúdio (p.i.)<br><br>3.1- Procurar o endereço do estúdio (b)<br><br>4- Sanar a dúvida: quais os documentos necessários para levar no dia da tatuagem? (p.i.)<br><br>4.1- Sanar a dúvida: quais os documentos necessários para levar no dia da tatuagem? (b)<br><br>5- Fazer o agendamento de uma tatuagem para a semana que vem. (p.i.)<br><br>5.1- Fazer o agendamento de uma tatuagem para a semana que vem. (b)<br><br>6- Conhecer o time de tatuadores do estúdio (p.i.)<br><br>6.1- Conhecer o time de tatuadores do estúdio (b)<br></p>
+            <p class="paragraph-small">Considerando a variação de cada tarefa elaborada, ou seja, podendo ser iniciada na página inicial ou na página blog do site, elas foram divididas em dois grupos de igual proporção. Enquanto um grupo iniciava o teste na página inicial e realizasse as tarefas em sequência, foi pedido para que os participantes do outro grupo retornassem para a página blog após ele afirmar já ter concluído a tarefa.<br></p>
+            <p class="paragraph-small"><br>Observação:<br><br>No caso de tarefas elaboradas de maneira mais aberta, como por exemplo: <br><br><span><em>“Imagine que você gostaria de conhecer o time de tatuadores do estúdio, como você faria?”</em></span><br><br>Corre o risco de o usuário entrar em uma tangente e, mesmo ciente das instruções iniciais passadas, expor verbalmente, por exemplo, o que ele faria em determinada situação ao invés de mostrar por meio do protótipo. Por isso, utilizo de verbos no imperativo. <br><br>Ao contrário de uma entrevista de profundidade, na qual poderíamos buscar entender mais profundamente acerca do modo de pensar e pedir para o usuário elaborar mais sobre o que ele quis dizer, o teste de usabilidade é utilizado para testar a eficiência e eficácia da tarefa em questão. Por isso, não houve muita interação para com os usuários.<br></p>
+            <h3>Conclusões<br></h3>
+            <p class="paragraph-small">Cada tarefa obteve um resultado considerando as métricas de eficiência, eficácia e satisfação, na qual: <br><br><span class="text-span">- <strong>Eficiência</strong>: a tarefa foi realizada em um tempo condizente com a média? O usuário obteve algum tipo de dificuldade?<br><br>- <strong>Eficácia</strong>: o objetivo principal da tarefa foi realizado?<br><br>- <strong>Satisfação</strong>: o usuário demonstrou insatisfação na realização da tarefa? </span><br><br>Assim, foi possível estabelecer possíveis pontos de melhoria de acordo com a informação obtida. Como, por exemplo, no relatório da tarefa 5.1 (b):<br><br><strong>Tarefa: 5.1- Fazer o agendamento de uma tatuagem para a semana que vem. (b)<br></strong><br>Informação: dispendiosa, pois o usuário possui um deslocamento considerado árduo pelo tempo gasto e a quantidade de tarefas que devem ser executadas até a conclusão. <br><br>Insight: Um botão flutuante de WhatsApp do lado direito inferior em todas as páginas pode fazer com que o usuário atinja a conversão de agendamento de maneira mais eficiente.<br><br>Conclusão: A gravidade encontrada é acentuada pelo fato de, após uma eventual pesquisa pelo site, ele ter decidido pelo estúdio e querer marcar o dia e horário. Assim, um <a href="https://blog.allin.com.br/lead-qualificado/" target="_blank" class="link-external"><em>lead</em> qualificado</a> deve ter uma experiência com a menor quantidade de atrito possível durante a navegação.<br></p>
+          </div>
+          <div class="div-article-item">
+            <div class="div-item-title-case">
+              <h2>Conclusão<br></h2>
+            </div>
+            <p class="paragraph-small">Além dos entregáveis e a documentação de todo o processo realizado, um <a href="https://medium.com/ux-user-experience-design-em-portugues/ux-baseado-em-fatos-design-system-728732454929" target="_blank" class="link-external"><em>Design System</em></a> incipiente foi desenvolvido para o estúdio de tatuagem. Assim, seja para a criação de uma nova página web, estratégias de marketing, ou serviços por parte de um designer contratado, a organização estará devidamente municiada por um guia de branding, diretrizes, e recomendações de uso dos principais componentes. <br><br>Salienta-se a importância de cada etapa realizada, visto que todas possuem uma interligação importante no decorrer e ao final do projeto. Deste modo, um objetivo que não esteja claro ou um perfil de usuário elaborado sem o devido embasamento, por exemplo, podem comprometer as fases restantes. <br><br>Por fim, o projeto foi considerado um sucesso pelo estúdio de tatuagem. Não apenas pelo resultado visual e estrutural do site, mas pelo enfoque nos usuários e insights gerados no decorrer da pesquisa. Agradeço aos envolvidos pelo tempo e consideração, pela confiança depositada, e por partilharem da filosofia de empatia e alteridade com cada pessoa, independente do aspecto social político ou econômico.<br></p>
+          </div>
+        </div>
+        <div class="texture-article-bottom"></div>
+      </div>
+    </div>
+    <a href="#Project-Title" class="link-button w-inline-block"><img src="https://uploads-ssl.webflow.com/632c64ea34428fc78321d9b0/632c64ea34428f6e0221da1a_Button%20Back%20to%20Top.png" loading="lazy" alt="Button back to top."></a>
+  </section>
+  <div class="section-5 wf-section">
+    <div class="container-13 w-container">
+      <div class="div-related-posts">
+        <h3 class="title-h4-2">Estudo de Caso Relacionado:</h3>
+      </div>
+      <div class="w-layout-grid grid-related-posts">
+        <div id="w-node-_30edca6d-ed3b-1e7d-938f-9cc295d9a97e-5840b9b6" class="w-layout-grid grid-related-post">
+          <div id="w-node-_30edca6d-ed3b-1e7d-938f-9cc295d9a97f-5840b9b6" class="div-related-post-image"><img src="images/Presentation-Horti-Expanded.png" loading="lazy" srcset="images/Presentation-Horti-Expanded-p-500.png 500w, images/Presentation-Horti-Expanded-p-800.png 800w, images/Presentation-Horti-Expanded-p-1080.png 1080w, images/Presentation-Horti-Expanded-p-1600.png 1600w, images/Presentation-Horti-Expanded.png 1694w" alt="Mockup of a smartphone with the login and home screen of a hortifruti application." sizes="(max-width: 479px) 85vw, (max-width: 991px) 86vw, 858.0113525390625px" class="image-related-post"></div>
+          <div id="w-node-_30edca6d-ed3b-1e7d-938f-9cc295d9a981-5840b9b6" class="div-wrapper-info-button">
+            <div class="div-info-text">
+              <p class="paragraph-medium"><strong>Horti - Conceito de um App de Hortifruti</strong></p>
+              <p class="paragraph-small">Uma rede de hortifruti gostaria de desenvolver um aplicativo. Acompanhe o processo inicial de pesquisa até a apresentação do conceito.</p>
+            </div>
+            <div class="div-info-button">
+              <a href="estudo-de-caso-horti.html" class="button-tertiary w-button">Ler Estudo de Caso</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <section class="footer-dark wf-section">
+    <div class="div-footer">
+      <div class="div-footer-logo">
+        <a href="index.html" data-w-id="2372f50b-9e6d-26e5-91a7-775fbfaccf7d" class="link-logo w-inline-block"><img src="https://uploads-ssl.webflow.com/62c811bc574f0029bec404e5/62dd780163a878323ea10cef_Logo__Footer.png" loading="lazy" alt="Belisiario logotype" class="image-logo-footer"></a>
+        <p class="paragraph-extra-small text-black-50">© 2022 Belisiario. All Rights Reserved.</p>
+      </div>
+      <div class="div-footer-links">
+        <div id="w-node-_2372f50b-9e6d-26e5-91a7-775fbfaccf82-bfaccf7a" class="content-items">
+          <div class="div-items-title">
+            <p class="paragraph-medium bold opacity-40">Site Map</p>
+          </div>
+          <div class="div-items-link">
+            <a href="index.html" class="paragraph-small hover-link">Home</a>
+            <a href="ux-ui.html" class="paragraph-small hover-link">UX/UI</a>
+            <a href="editorial-design.html" class="paragraph-small hover-link">Editorial Design</a>
+            <a href="branding.html" class="paragraph-small hover-link">Branding</a>
+            <a href="landing-page.html" class="paragraph-small hover-link">Landing Pages</a>
+            <a href="case-study-page.html" class="paragraph-small hover-link">Study Case</a>
+            <a href="about.html" class="paragraph-small hover-link">About</a>
+            <a href="contact.html" class="paragraph-small hover-link">Contact</a>
+          </div>
+        </div>
+        <div class="div-items-social">
+          <p class="paragraph-medium bold opacity-40">Connect</p>
+          <div class="div-social-media">
+            <a data-w-id="2372f50b-9e6d-26e5-91a7-775fbfaccf97" href="http://instagram.com/gabrielbelisiario" target="_blank" class="link-social-media w-inline-block"><img src="images/Icon__instagram.svg" loading="lazy" alt="Instagram icon"></a>
+            <a data-w-id="2372f50b-9e6d-26e5-91a7-775fbfaccf99" href="https://facebook.com/belisiario/" target="_blank" class="link-social-media w-inline-block"><img src="images/Icon__facebook.svg" loading="lazy" alt="Instagram icon"></a>
+            <a data-w-id="2372f50b-9e6d-26e5-91a7-775fbfaccf9b" href="https://www.linkedin.com/in/belisiario/" target="_blank" class="link-social-media w-inline-block"><img src="images/Icon__linkedin.svg" loading="lazy" alt="Instagram icon"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=61e01a226bc9373c8d58eb64" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <script src="js/webflow.js" type="text/javascript"></script>
+  <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
+</body>
+</html>
